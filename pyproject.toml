@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rna-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Quebits <quebits@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastai = "^2.7.16"
+torch = "^2.4.0"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+scikit-learn = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
