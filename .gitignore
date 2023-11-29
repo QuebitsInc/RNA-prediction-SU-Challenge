@@ -1,2 +1,3 @@
 venv
 poetry.lock
+rna_challenge/__pycache__
