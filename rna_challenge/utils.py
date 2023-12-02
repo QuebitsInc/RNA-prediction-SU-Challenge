@@ -32,10 +32,6 @@ def dict_to(x, device='cuda'):
     return {k: x[k].to(device) for k in x}
 
 
-def to_device(x, device='cuda'):
-    return tuple(dict_to(e, device) for e in x)
-
-
 def seed_everything(seed):
     random.seed(seed)
     os.environ['PYTHONHASHSEED'] = str(seed)
